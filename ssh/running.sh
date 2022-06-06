@@ -149,7 +149,7 @@ echo -e " SSH               : SSH Service is "$green"running"$NC""
 else
 echo -e " SSh               : SSH Service is "$red"not running (Error)"$NC""
 fi
-status="$(systemctl show stunnel4.service --no-page)"
+status="$(systemctl show stunnel5.service --no-page)"
 status_text=$(echo "${status}" | grep 'ActiveState=' | cut -f2 -d=)
 if [ "${status_text}" == "active" ]
 then
@@ -189,7 +189,7 @@ echo -e " WS-Dropbear       : WS-Dropbear Service is "$green"running"$NC""
 else
 echo -e " WS-Dropbear       : WS-Dropbear is "$red"not running (Error)"$NC""
 fi
-status="$(systemctl show ws-stunnel.service --no-page)"
+status="$(systemctl show stunnel5.service --no-page)"
 status_text=$(echo "${status}" | grep 'ActiveState=' | cut -f2 -d=)
 if [ "${status_text}" == "active" ]
 then
