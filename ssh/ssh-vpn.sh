@@ -51,10 +51,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
-email=akbarssh21@gmail.com
+organization=MasWayVPN
+organizationalunit=MasWayVPN
+commonname=MasWayVPN
+email=akunabal.abal7770@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${MasWayVPN}/password"
