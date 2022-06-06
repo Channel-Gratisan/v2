@@ -26,7 +26,7 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/MasWayVPN"
 exit 0
 fi
 clear
-source /var/lib/akbarstorevpn/ipvps.conf
+source /var/lib/MasWayVPN/ipvps.conf
 if [[ "$IP" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else
@@ -108,4 +108,4 @@ echo -e "Link TLS    : ${xrayv2ray1}"
 echo -e "========================="
 echo -e "Link No TLS : ${xrayv2ray2}"
 echo -e "========================="
-echo -e "Script By Akbar Maulana"
+echo -e "Script By MasWayVPN"
