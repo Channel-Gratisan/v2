@@ -49,7 +49,7 @@ fi
 fi
 mkdir /home/sstp
 touch /home/sstp/sstp_account
-touch /var/lib/akbarstorevpn/data-user-sstp
+touch /var/lib/MasWayVPN/data-user-sstp
 #detail nama perusahaan
 country=ID
 state=Indonesia
