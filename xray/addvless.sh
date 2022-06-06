@@ -26,7 +26,7 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/MasWayVPN"
 exit 0
 fi
 clear
-source /var/lib/akbarstorevpn/ipvps.conf
+source /var/lib/MasWayVPN/ipvps.conf
 if [[ "$IP" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else
