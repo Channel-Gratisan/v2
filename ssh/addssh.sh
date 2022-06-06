@@ -25,7 +25,7 @@ echo -e "${NC}${LIGHT}WhatsApp : 6283120857907"
 echo -e "${NC}${LIGHT}Telegram : https://t.me/MasWayVPN"
 exit 0
 fi
-source /var/lib/akbarstorevpn/ipvps.conf
+source /var/lib/MasWayVPN/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else
