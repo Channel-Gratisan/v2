@@ -45,7 +45,7 @@ cp -r /etc/wireguard backup/wireguard
 cp /etc/ppp/chap-secrets backup/chap-secrets
 cp /etc/ipsec.d/passwd backup/passwd1
 cp /etc/shadowsocks-libev/akun.conf backup/ss.conf
-cp -r /var/lib/akbarstorevpn/ backup/akbarstorevpn
+cp -r /var/lib/MasWayVPN/ backup/MasWayVPN
 cp -r /home/sstp backup/sstp
 cp -r /etc/xray backup/xray
 cp -r /etc/trojan-go backup/trojan-go
