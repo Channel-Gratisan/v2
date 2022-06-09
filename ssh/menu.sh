@@ -4,7 +4,7 @@ m="\033[0;1;36m"
 y="\033[0;1;37m"
 yy="\033[0;1;32m"
 yl="\033[0;1;33m"
-wh="\033[0m"
+wh="\e[0m"
 echo -e "\e[1;33m═════════════════════════════════════════════════════════════════════════════════\e[0m'"
 echo -e "\e[1;33m                                 𝑆𝐶𝑅𝐼𝑃𝑇 𝑉𝑃𝑆 𝐹𝑂𝑅 𝐷𝐸𝐵𝐼𝐴𝑁 𝐴𝑁𝐷 𝑈𝐵𝑈𝑁𝑇𝑈 \e[0m" | lolcat
 echo -e ""
@@ -15,61 +15,61 @@ echo -e "\e[1;33m                      \_/  |_|  |___/|___/ \___/  |_|  \e[0m" |
 echo -e ""
 echo -e "\e[1;33m                            ✵✫ 𝑆𝐼𝑁𝐶𝐸 2022 ✫✵ \e[0m" | lolcat
 echo -e "\e[1;33m                                  𝐴𝑈𝑇𝑂𝑆𝐶𝑅𝐼𝑃𝑇 𝑃𝑅𝐸𝑀𝐼𝑈𝑀 \e[0m" | lolcat
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$y                        Telegram : https://t.me/MasWayVPN $wh"
 echo -e "$y                        Premium Auto Script By MasWayVPN $wh"
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$y   SSH & OpenVPN                                L2TP         $wh"
-echo -e "$y========================================================================================$wh"
-echo -e "$yy [1]$y.BUAT AKUN SSH & OpenVPN "          |echo -e "$yy [11]$y.BUAT AKUN L2TP"
-echo -e "$yy [2]$y.TRIAL SSH & OpenVPN"               |echo -e "$yy [12]$y.HAPUS AKUN L2TP"
-echo -e "$yy [3]$y.PERPANJANG AKUN SSH & OVPN"        |echo -e "$yy [13]$y.PERPANJANG AKUN L2TP"
-echo -e "$yy [4]$y.CEK USER LOGIN SSH & OVPN"         |
-echo -e "$yy [5]$y.DAFTAR MEMBER SSH & OVPN"          |
-echo -e "$yy [6]$y.HAPUS AKUN SSH & OVPN"             |
-echo -e "$yy [7]$y.HAPUS AKUN KADALUARSA SSH & OVPN"  |
-echo -e "$yy [8]$y.AUTO KILL SSH"                     |
-echo -e "$yy [9]$y.CEK USER MULTI LOGIN SSH"          |
-echo -e "$yy [10]$y.RESTART All SERVICE"              |
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
+echo -e "$yy [1]$y.BUAT AKUN SSH & OpenVPN            |$yy [11]$y.BUAT AKUN L2TP"
+echo -e "$yy [2]$y.TRIAL SSH & OpenVPN                |$yy [12]$y.HAPUS AKUN L2TP"
+echo -e "$yy [3]$y.PERPANJANG AKUN SSH & OVPN         |$yy [13]$y.PERPANJANG AKUN L2TP"
+echo -e "$yy [4]$y.CEK USER LOGIN SSH & OVPN          |"
+echo -e "$yy [5]$y.DAFTAR MEMBER SSH & OVPN           |"
+echo -e "$yy [6]$y.HAPUS AKUN SSH & OVPN              |"
+echo -e "$yy [7]$y.HAPUS AKUN KADALUARSA SSH & OVPN   |"
+echo -e "$yy [8]$y.AUTO KILL SSH                      |"
+echo -e "$yy [9]$y.CEK USER MULTI LOGIN SSH           |"
+echo -e "$yy [10]$y.RESTART All SERVICE               |"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$y   PPTP                                         SSTP$wh"
-echo -e "$y========================================================================================$wh"
-echo -e "$yy [14]$y.BUAT AKUN PPTP"                   |echo -e "$yy [17]$y.BUAT AKUN SSTP"
-echo -e "$yy [15]$y.HAPUS AKUN PPTP"                  |echo -e "$yy [18]$y.HAPUS AKUN SSTP"
-echo -e "$yy [16]$y.PERPANJANG AKUN PPTP"             |echo -e "$yy [19]$y.PERPANJANG AKUN SSTP"
-echo -e ""                                            |echo -e "$yy [20]$y.CEK USER LOGIN SSTP"
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
+echo -e "$yy [14]$y.BUAT AKUN PPTP                    |$yy [17]$y.BUAT AKUN SSTP"
+echo -e "$yy [15]$y.HAPUS AKUN PPTP                   |$yy [18]$y.HAPUS AKUN SSTP"
+echo -e "$yy [16]$y.PERPANJANG AKUN PPTP              |$yy [19]$y.PERPANJANG AKUN SSTP"
+echo -e "                                             |$yy [20]$y.CEK USER LOGIN SSTP"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$y   SSTP                                         WIREGUARD $wh"
-echo -e "$y========================================================================================$wh"
-echo -e "$yy [17]$y.BUAT AKUN SSTP"                   |echo -e "$yy [21]$y.BUAT AKUN WIREGUARD"
-echo -e "$yy [18]$y.HAPUS AKUN SSTP"                  |echo -e "$yy [22]$y.HAPUS AKUN WIREGUARD"
-echo -e "$yy [19]$y.PERPANJANG AKUN SSTP"             |echo -e "$yy [23]$y.PERPANGJANG AKUN WIREGUARD"
-echo -e "$yy [20]$y.CEK USER LOGIN SSTP"              |
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
+echo -e "$yy [17]$y.BUAT AKUN SSTP                    |$yy [21]$y.BUAT AKUN WIREGUARD"
+echo -e "$yy [18]$y.HAPUS AKUN SSTP                   |$yy [22]$y.HAPUS AKUN WIREGUARD"
+echo -e "$yy [19]$y.PERPANJANG AKUN SSTP              |$yy [23]$y.PERPANGJANG AKUN WIREGUARD"
+echo -e "$yy [20]$y.CEK USER LOGIN SSTP               |"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$y   SHADOWSOCKS                                  SHADOWSOCKSR$wh"
-echo -e "$y========================================================================================$wh"
-echo -e "$yy [24]$y.BUAT AKUN SHADOWSOCKS"            |echo -e "$yy [28]$y.BUAT AKUN SSR"
-echo -e "$yy [25]$y.HAPUS AKUN SHADOWSOCKS"           |echo -e "$yy [29]$y.HAPUS AKUN SSR"
-echo -e "$yy [26]$y.PERPANJANG SHADOWSOCKS"           |echo -e "$yy [30]$y.PERPANJANG AKUN SSR"
-echo -e "$yy [27]$y.CEK USER LOGIN SHADOWSOCKS"       |echo -e "$yy [31]$y.BUKA MENU SSR"
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
+echo -e "$yy [24]$y.BUAT AKUN SHADOWSOCKS             |$yy [28]$y.BUAT AKUN SSR"
+echo -e "$yy [25]$y.HAPUS AKUN SHADOWSOCKS            |$yy [29]$y.HAPUS AKUN SSR"
+echo -e "$yy [26]$y.PERPANJANG SHADOWSOCKS            |$yy [30]$y.PERPANJANG AKUN SSR"
+echo -e "$yy [27]$y.CEK USER LOGIN SHADOWSOCKS        |$yy [31]$y.BUKA MENU SSR"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$y   XRAYS / VMESS                                XRAY / VLESS$wh"
-echo -e "$y========================================================================================$wh"
-echo -e "$yy [32]$y.BUAT AKUN XRAYS VMESS WEBSOCKET"  |echo -e "$yy [37]$y.BUAT AKUN XRAYS VLESS WEBSOCKET"
-echo -e "$yy [33]$y.HAPUS AKUN XRAYS VMESS WEBSOCKET" |echo -e "$yy [38]$y.HAPUS AKUN XRAYS VLESS WEBSOCKET"
-echo -e "$yy [34]$y.PERPANJANG XRAYS VMESS"           |echo -e "$yy [39]$y.PERPANGJANG XRAYS VLESS"
-echo -e "$yy [35]$y.CEK USER LOGIN XRAYS VMESS"       |echo -e "$yy [40]$y.CEK USER LOGIN XRAYS VLESS"
-echo -e "$yy [36]$y.RENEW CERTYFICATE XRAYS"          |
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
+echo -e "$yy [32]$y.BUAT AKUN XRAYS VMESS WEBSOCKET   |$yy [37]$y.BUAT AKUN XRAYS VLESS WEBSOCKET"
+echo -e "$yy [33]$y.HAPUS AKUN XRAYS VMESS WEBSOCKET  |$yy [38]$y.HAPUS AKUN XRAYS VLESS WEBSOCKET"
+echo -e "$yy [34]$y.PERPANJANG XRAYS VMESS            |$yy [39]$y.PERPANGJANG XRAYS VLESS"
+echo -e "$yy [35]$y.CEK USER LOGIN XRAYS VMESS        |$yy [40]$y.CEK USER LOGIN XRAYS VLESS"
+echo -e "$yy [36]$y.RENEW CERTYFICATE XRAYS           |"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$y   TROJAN                                       TROJAN-GO$wh"
-echo -e "$y========================================================================================$wh"
-echo -e "$yy [41]$y.BUAT AKUN XRAYS TROJAN"           |echo -e "$yy [45]$y.BUAT AKUN TROJAN-GO"
-echo -e "$yy [42]$y.HAPUS AKUN XRAYS TROJAN"          |echo -e "$yy [46]$y.HAPUS AKUN TROJAN-GO"
-echo -e "$yy [43]$y.PERPANGJANG XRAYS TROJAN"         |echo -e "$yy [47]$y.PERPANJANG TROJAN-GO"
-echo -e "$yy [44]$y.CEK USER LOGIN XRAYS TROJAN"      |echo -e "$yy [48]$y.CEK USER LOGIN TROJAN-GO"
-echo -e "$y========================================================================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
+echo -e "$yy [41]$y.BUAT AKUN XRAYS TROJAN            |$yy [45]$y.BUAT AKUN TROJAN-GO"
+echo -e "$yy [42]$y.HAPUS AKUN XRAYS TROJAN           |$yy [46]$y.HAPUS AKUN TROJAN-GO"
+echo -e "$yy [43]$y.PERPANGJANG XRAYS TROJAN          |$yy [47]$y.PERPANJANG TROJAN-GO"
+echo -e "$yy [44]$y.CEK USER LOGIN XRAYS TROJAN       |$yy [48]$y.CEK USER LOGIN TROJAN-GO"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat 
 echo -e "$y   SYSTEM $wh"
-echo -e "$y====================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e "$yy [49]$y.ADD SUBDOMAIN"
 echo -e "$yy [50]$y.UBAH PORT"
 echo -e "$yy [51]$y.AUTOBACKUP VPS"
@@ -83,7 +83,7 @@ echo -e "$yy [58]$y.SPEEDTEST"
 echo -e "$yy [59]$y.CEK ALL SERVICE"
 echo -e "$yy [60]$y.LOG SCRIPT"
 echo -e "$yy [61]$y.INFO SCRIPT"
-echo -e "$y====================================$wh"
+echo -e "\e[1;33m========================================================================================$wh" | lolcat
 echo -e ""
 read -p "Select From Options [ [1] - [60] ] : " menu
 echo -e ""
